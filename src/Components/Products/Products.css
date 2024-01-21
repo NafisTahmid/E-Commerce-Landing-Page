@@ -1,0 +1,17 @@
+.line {
+    height: 37px;
+    width: 4px;
+}
+
+.product-container {
+    height: 280px;
+    box-shadow: 0 1px 1px 5px #c4c4c44d;
+}
+
+.product-container:hover {
+    box-shadow: 0 1px 1px 5px #9c9a9a4d;
+}
+
+.product-container img {
+    height: 180px;
+}

@@ -1,0 +1,9 @@
+.hero-section {
+    background-color: #f3f2ef;
+}
+
+.hero-text {
+    max-width: 500px;
+    text-align: justify;
+    font-size: 14px;
+}

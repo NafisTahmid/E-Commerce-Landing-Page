@@ -1,0 +1,13 @@
+.different-section {
+    background-color: #f3f2ef;
+}
+
+.different:hover {
+    box-shadow: 0 1px 1px 5px #9c9a9a4d;
+}
+
+.different {
+    border-radius: 10px;
+    cursor: pointer;
+
+}

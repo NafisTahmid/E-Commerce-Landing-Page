@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Hero from "./Components/Hero/Hero";
+import Navbar from "./Components/Navbar/Navbar";
+import Products from "./Components/Products/Products";
+import productsData from "./Components/Data/ProductsData";
+import Offer from "./Components/Offer/Offer";
+import BenefitsProducts from "./Components/BenefitsProducts/BenefitsProducts";
+import MakesDifferent from "./Components/MakesDifferent/MakesDifferent";
+import LatestBlog from "./Components/LatestBlog/LatestBlog";
+import LatestBlogData from "./Components/Data/LatestBlogData";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <main>
+        <Navbar/>
+        <Hero />
+        <Products title="Top Products" data={productsData}/>
+        <Products title="Featured Products" data={productsData}/>
+        <Offer />
+        <BenefitsProducts />
+        <MakesDifferent />
+        <LatestBlog title="Latest Blogs" data={LatestBlogData}/>
+    </main>
+
   );
 }
 
